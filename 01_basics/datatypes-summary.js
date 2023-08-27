@@ -14,7 +14,35 @@
  const myfunction = function() {
     console.log("hello world");
 
-    
+
     
  }
- console.log(typeof myfunction);
+//  console.log(typeof myfunction);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+// stack (primitive) , heap (non-primitive)
+
+let myYouthubename = "hiteshchoudarydotcom"
+
+let anothername = myYouthubename
+anothername = "chaiaurcode"
+console.log(myYouthubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google",
+    upi: "user@ybl"
+
+
+}
+
+let userTwo = userOne
+userTwo.email = "hitesh@google"
+console.log(userOne.email);
+console.log(userTwo.email);
